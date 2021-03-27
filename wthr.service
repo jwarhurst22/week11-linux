@@ -1,0 +1,11 @@
+[Unit]
+Description=runs weather-report script
+Wants=wthr.timer
+
+[Service]
+Type=oneshot
+ExecStart=/home/vagrant/bin/weather-report
+WorkingDirectory=/home/vagrant/bin
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+[Unit]
+Description=timer for weather-script to run
+Requires=wthr.service
+
+[Timer]
+Unit=wthr.service
+OnCalender=*-*-* *:*:00
+
+[Install]
+WantedBy=timers.target
