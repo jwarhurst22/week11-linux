@@ -1,6 +1,4 @@
-# week11-linux
-# Joshua Warhurst A01238312
-# Friday March 26th, 2021
+week11-linux - Joshua Warhurst A01238312 - Friday March 26th, 2021
 
 # weather-report (script)
 1. Before you begin writing your script, in the directory your writing your script. You first want to `export PATH=$PATH:/place/with/the/file`command so you can call your        script in any directory.
