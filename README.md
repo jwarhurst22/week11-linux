@@ -1,6 +1,6 @@
-week11-linux - Joshua Warhurst A01238312 - Friday March 26th, 2021
+# week11-linux - Joshua Warhurst A01238312 - Friday March 26th, 2021
 
-# weather-report (script)
+## weather-report (script)
 1. Before you begin writing your script, in the directory your writing your script. You first want to `export PATH=$PATH:/place/with/the/file`command so you can call your        script in any directory.
 2. When you `cd` into your directory that you want to write the script, do the command `vim [script-name]` to begin writing your script.
 3. Begin your script by using adding `#!/bin/bash` at the top of the vim editor (so bash can properly buffer your script)
@@ -23,7 +23,7 @@ WorkingDirectory=/home/vagrant/path/to/dir
 WantedBy=multi-user.target
 ```
 
-### timer file
+## timer file
 1. You can begin writing your service file in the same directory with your other files & script by doing the command ```sudo vim your-timername.timer```
 2. In your VIM editor, make sure your service file is in the following format:
 ```
